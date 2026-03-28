@@ -11,7 +11,8 @@
             margin: 0;
             padding: 0;
             font-family: 'Orbitron', sans-serif;
-            background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.95)), url('https://source.unsplash.com/random/1920x1080/?space,stars,nebula') no-repeat center center fixed;
+            background: linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.95)), 
+                        url('https://picsum.photos/id/1015/1920/1080') no-repeat center center fixed;
             background-size: cover;
             color: #00f0ff;
             text-align: center;
@@ -19,34 +20,29 @@
         }
 
         header {
-            padding: 80px 20px 40px;
-            background: rgba(0, 0, 0, 0.7);
+            padding: 100px 20px 60px;
+            background: rgba(0, 0, 0, 0.75);
         }
 
         h1 {
             font-family: 'Press Start 2P', cursive;
-            font-size: 3.5rem;
+            font-size: 3.8rem;
             color: #ff00ff;
-            text-shadow: 0 0 20px #ff00ff, 0 0 40px #00f0ff;
-            margin: 0;
+            text-shadow: 0 0 25px #ff00ff, 0 0 50px #00f0ff;
+            margin: 0 0 10px 0;
         }
 
         .slogan {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             color: #ffffff;
-            margin: 15px 0;
-        }
-
-        nav {
-            margin: 30px 0;
+            margin: 10px 0 30px;
         }
 
         nav a {
             color: #00f0ff;
             text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.1rem;
-            transition: all 0.3s;
+            margin: 0 18px;
+            font-size: 1.15rem;
         }
 
         nav a:hover {
@@ -55,53 +51,45 @@
         }
 
         section {
-            padding: 60px 20px;
-            max-width: 1000px;
+            padding: 70px 20px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
-        .servers {
-            background: rgba(0, 0, 0, 0.6);
-        }
-
         .ip {
-            background: rgba(255, 0, 255, 0.1);
-            padding: 15px;
-            border: 2px solid #ff00ff;
+            background: rgba(255, 0, 255, 0.15);
+            padding: 18px 25px;
+            border: 3px solid #ff00ff;
             display: inline-block;
             margin: 15px;
-            border-radius: 8px;
+            border-radius: 12px;
             font-family: monospace;
-            font-size: 1.3rem;
+            font-size: 1.35rem;
+            box-shadow: 0 0 20px rgba(255, 0, 255, 0.4);
         }
 
         button {
-            background: #ff00ff;
+            background: linear-gradient(#ff00ff, #c600c6);
             color: white;
             border: none;
-            padding: 12px 30px;
-            margin: 10px;
-            font-size: 1.1rem;
+            padding: 15px 35px;
+            margin: 15px;
+            font-size: 1.2rem;
             cursor: pointer;
-            border-radius: 6px;
-            transition: all 0.3s;
+            border-radius: 8px;
+            transition: all 0.4s;
         }
 
         button:hover {
             background: #00f0ff;
             color: black;
-            transform: scale(1.05);
+            transform: scale(1.08);
         }
 
         footer {
-            padding: 40px;
-            background: rgba(0, 0, 0, 0.9);
-            font-size: 0.9rem;
-        }
-
-        .discord {
-            color: #7289da;
-            font-size: 1.2rem;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.95);
+            font-size: 0.95rem;
         }
     </style>
 </head>
@@ -110,7 +98,7 @@
     <header>
         <h1>UNIVERS NOVA STUDIO</h1>
         <p class="slogan">Création de mondes • Serveurs • Jeux vidéo</p>
-        <p>Depuis Abidjan — Vers l’infini et au-delà</p>
+        <p style="color:#aaa;">Depuis Abidjan — Vers l’infini et au-delà 🔥</p>
     </header>
 
     <nav>
@@ -120,56 +108,51 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <section id="serveurs" class="servers">
+    <section id="serveurs">
         <h2>Nos Serveurs Actifs</h2>
         
         <h3>Minecraft</h3>
-        <div class="ip">IP : prskapo.falixsrv.me</div>
-        <p>Rejoins la communauté Nova !</p>
-
+        <div class="ip">prskapo.falixsrv.me</div>
+        
         <h3>SAMP</h3>
-        <div class="ip">IP : 51.38.205.167:24328</div>
-        <p>Roleplay & Fun en continu</p>
+        <div class="ip">51.38.205.167:24328</div>
 
         <a href="https://discord.gg/4zpw6S2fzt" target="_blank">
             <button>Rejoindre le Discord</button>
         </a>
     </section>
 
-    <section id="boutique">
+    <section id="boutique" style="background: rgba(0,0,0,0.6);">
         <h2>Boutique VIP & Grades</h2>
         <p>Achète des grades, cosmétiques et avantages exclusifs</p>
         
-        <p><strong>Mobile Money (Orange / MTN) :</strong><br>
-        <span style="color:#ff0; font-size:1.4rem;">0576 483 052</span><br>
+        <p><strong>Mobile Money (Orange/MTN) :</strong><br>
+        <span style="color:#ff0; font-size:1.5rem;">0576 483 052</span><br>
         Envoie le reçu sur Discord pour activer ton VIP rapidement.</p>
 
         <p><strong>PayPal :</strong><br>
-        <a href="https://paypal.me/universnova0" target="_blank" style="color:#00f0ff;">
-            universnova.0@gmail.com
-        </a></p>
+        <a href="https://paypal.me/universnova0" target="_blank" style="color:#00f0ff;">universnova.0@gmail.com</a></p>
 
-        <button onclick="alert('Contacte-nous sur Discord pour commander ton grade !')">Commander un VIP</button>
+        <button onclick="alert('Contacte-nous sur Discord pour ton grade !')">Commander un VIP</button>
     </section>
 
     <section id="projets">
         <h2>Projets en cours</h2>
         <p>Je suis en train d’apprendre le codage pour créer mon propre jeu vidéo.</p>
-        <p>Scripts & plugins custom pour Minecraft et SAMP aussi disponibles sur demande.</p>
-        <p>UNIVERS NOVA STUDIO : le studio indépendant qui monte depuis Abidjan !</p>
+        <p>Scripts & plugins custom pour Minecraft et SAMP disponibles sur demande.</p>
     </section>
 
     <section id="contact">
-        <h2>Contact & Communauté</h2>
-        <p class="discord">Discord : <a href="https://discord.gg/4zpw6S2fzt" target="_blank">https://discord.gg/4zpw6S2fzt</a></p>
-        <p>WhatsApp / Mobile Money : 0576 483 052</p>
+        <h2>Contact</h2>
+        <p>Discord : <a href="https://discord.gg/4zpw6S2fzt" target="_blank">https://discord.gg/4zpw6S2fzt</a></p>
+        <p>Mobile Money : 0576 483 052</p>
         <p>PayPal : universnova.0@gmail.com</p>
     </section>
 
     <footer>
-        <p>© 2026 UNIVERS NOVA STUDIO — Créé par Junior (16 ans, Abidjan)</p>
-        <p>Tous droits réservés • Site hébergé gratuitement sur GitHub Pages</p>
+        <p>© 2026 UNIVERS NOVA STUDIO — Créé par Junior (16 ans, Abidjan, Côte d’Ivoire)</p>
+        <p>Site gratuit sur GitHub Pages • On commence petit, on va loin !</p>
     </footer>
 
 </body>
-</html>
+    </html>
